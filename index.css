@@ -1,0 +1,73 @@
+body {
+  padding: 20px;
+  background-color: chocolate;
+}
+.all {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/578/737/205/minimalistic-world-patterns-vector-templates-world-map-1920x1080-art-minimalistic-hd-art-wallpaper-preview.jpg");
+}
+#s {
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 15px;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+}
+#data {
+  height: 100%;
+  width: 50%;
+}
+#data > div {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+#data > div > p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#map {
+  height: 100%;
+  width: 50%;
+  box-sizing: content-box;
+}
+#map > iframe {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+#seven {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+#seven > div {
+  background-color: skyblue;
+  text-align: center;
+  width: 250px;
+  height: 310px;
+  outline: 1px solid thin;
+  border-radius: 10px;
+}
+#seven > div > img {
+  height: 80px;
+  width: 90px;
+}
+#seven > div > div {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+#seven > div > div > i {
+  margin-top: -2px;
+  margin-left: 5px;
+}
