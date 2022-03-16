@@ -19,5 +19,7 @@ To try our app just click on [Weather-App](https://mini-weather-app.vercel.app/)
 
 Clone the project
 
-
+```bash
 https://github.com/jibi966/Mini-Weather-App.git
+```
+
