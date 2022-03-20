@@ -71,3 +71,26 @@ body {
   margin-top: -2px;
   margin-left: 5px;
 }
+
+@media only screen and (min-width: 0) and (max-width: 375px) {
+  #seven {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+  }
+  #seven > div {
+    width: 150px;
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 768px) {
+  #seven {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+  }
+  #seven > div {
+    width: 180px;
+    height: 350px;
+  }
+}
